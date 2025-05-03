@@ -36,4 +36,4 @@ Potential projects for Nephro AI in the future include the analysis of symptoms.
 
 We would like to thank our team members for their contributions to the project 
 
-Team MemberIIT No.J.J.Godwin20211156P.R. Marambe20210375M.A.C.R. Wijewardane20210107S.T.S.V. Surage20210322M.G.Y. Jayamadu20210304
+Team Members: J.J.Godwin, P.R. Marambe, M.A.C.R. Wijewardane, S.T.S.V. Surage, M.G.Y. Jayamadu20210304
