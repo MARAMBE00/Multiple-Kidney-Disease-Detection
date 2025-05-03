@@ -1,0 +1,140 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+img {
+  margin-top: 4%;
+  float: right;
+  padding-right: 4%;
+  width: 50%;
+  height: 90%;
+  object-fit:fill;
+}
+
+.hero-text {
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  padding: 0 10px;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 45%;
+  margin-bottom: 5px;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  background: #1a4ccc;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  background: #da2c91;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: 600;
+  word-spacing: 5px;
+  width: 95%;
+  padding: 0.5rem 0 1rem 0;
+}
+
+.hero-text .show {
+  backface-visibility: hidden;
+  background: #2f83eb;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #221f1f;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+  
+.hero-text .show:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.hero-text .show:not(:disabled):hover {
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.hero-text .show:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.hero-text .show:focus {
+  outline: 0 solid transparent;
+}
+
+.hero-text .show:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.hero-text .show:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.hero-text .show:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
+@media screen and (max-width: 850px) {
+  .hero-text h1 {
+    font-size: 3rem;
+    padding: 10px 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 3rem;
+    padding: 10px 20px;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+
+  .hero-text .show{
+    padding: 0.6rem 1.1rem;
+    border-radius: 30px;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,239 @@
+.fileborder{
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+.mb-2 {
+    padding: 0 6% 0 7.5%;
+}
+
+.key_message {
+    font-size: 17px;
+}
+
+.tm_dcv {
+    padding: 0 6% 0 7.5%;
+}
+
+.uploader_section {
+    display: flex;
+    margin-left: 5%;
+}
+
+.refText, .refText.a {
+    margin-top: 5%;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.refText.a {
+    color: #0468eb;
+}
+
+.fileborder h1{
+    text-align: left;
+    margin: 0 0 0 7.5%;
+    padding-top: 5%;
+    font-weight: bold;
+    color: #1a4ccc;
+}
+
+.upload-card{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 1rem;
+    background-color:#FFFFFF;
+    margin-right: 10%;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: 550;
+    padding: 0 0 20px 0%;
+}
+
+.upld_img {
+    display: flex;
+    margin-top: 7%;
+    margin-right: 13%;
+    height: 70%;
+    width: 70%;
+}
+
+.btn-default-p-0 {
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.table_nx {
+    text-align: left;
+    padding: 2% 2% 2% 2%;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+}
+  
+.table_headers {
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.refText a {
+    text-decoration: none;
+    color: black;
+}
+
+.sample_tp, .sample_dn, .sample_pr, .sample_dr {
+    font-size: 16px;
+    padding-bottom: 1%;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 1%;
+}
+
+.sample_tp {
+    width: 22%;
+}
+
+.sample_dn {
+    width: 22%;
+}
+
+.sample_pr {
+    width: 15%;
+}
+
+.sample_dr {
+    width: 30%;
+}
+
+.result_fce {
+    border-radius: 5px;
+    margin-top: 10%;
+    padding: 5% 10% 5% 5%;
+    max-width: 45%;
+    max-height: 50%;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.table_data {
+    font-size: 15px;
+}
+
+.pdf_button {
+    border: none;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #0468eb;
+}
+
+.upload-card-header.a1 {
+    text-align: center;
+    margin: 3% 0 0 2%;
+    padding-bottom: 2%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(227, 48, 48);
+}
+
+.list-group-item.a1 {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.list-group-item.a1 li {
+    margin: 2%;
+    padding: 1% 3% 0 2%;
+}
+
+.my-3 {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    margin-right: 3%;
+}
+
+.col-dn {
+    border-style: dashed;
+    border-color:rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin-left: 7%;
+    padding: 0 0 7% 0;
+    height: 95%;
+    width: 90%;
+}
+
+.uploader_media {
+    color: black;
+    font-weight: 300;
+}
+
+.col-4 {
+    margin-top: 5%; 
+    margin-left: 33%;
+}
+
+.upload-card.a1 {
+    width: 95%;
+    padding: 0.5% 0 1% 0;
+}
+
+.div_instructions {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.upload_panel {
+    flex-direction: row;
+    justify-items: center;
+    margin: 1% 0 0 2%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(227, 48, 48);
+}   
+
+.list-group-item.a2 {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.list-group-item.a2 li {
+    margin: 1%;
+    padding: 1% 3% 0 2%;
+}
+
+.upload-btn{
+    background: linear-gradient(to bottom right, #6681e4, #0468eb);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2;
+    outline: transparent;
+    padding: 0.25rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.upload-btn:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(95, 118, 248, 0.5), .125rem .125rem 1rem rgba(61, 21, 239, 0.5);
+}
+  
+.upload-btn:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(95, 118, 248, 0.5), .125rem .125rem 1rem rgba(61, 21, 239, 0.5);
+}

@@ -1,0 +1,45 @@
+.review {
+  display: flex;
+  justify-content: center; 
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.review h1{
+  font-size: 2.5rem;
+  color: #1a4ccc;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+
+p{
+  font-size: 1.3rem;
+  color: #2a2a2a;
+}
+
+.review .slick-arrow.slick-prev,
+.review .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+.review .slick-prev::before,
+.review .slick-next::before {
+  display: none;
+}
+.review .slick-arrow.slick-next {
+  right: -70px;
+}
+.review .slick-arrow.slick-prev {
+  left: -70px;
+}
+.review .slick-dots li button:before {
+  font-size: 15px;
+}
+.review .slick-dots li {
+  top: 15px;
+}

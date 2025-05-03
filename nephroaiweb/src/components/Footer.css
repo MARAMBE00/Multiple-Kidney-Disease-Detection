@@ -1,0 +1,133 @@
+.footer {
+    height: 0;
+}
+
+.frowone{
+    padding: 4rem 6rem;
+    background: #000;
+    color: #fff;
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstcol, .secondcol, .thirdcol, .forthcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstcol {
+    margin-right: 10%;
+}
+
+h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.footer-logo{
+    padding-top: 10px;
+    margin-left: 15%;
+    height: 50%;
+    width: 50%;
+}
+
+.firstcol p{
+    padding-top: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.firstcol .footer-name{
+    margin-left: 4%;
+    text-align: left;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.secondcol {
+    
+    width: 20%;
+}
+
+.secondcol h4{
+    font-weight: bold;
+}
+
+.thirdcol h4{
+    font-weight: bold;
+}
+
+.secondcol a{
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.thirdcol {
+    padding-right: 50px;
+    width: 25%;
+}
+
+.thirdcol a{
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.3rem;
+}
+
+.forthcol h4{
+    font-weight: bold;
+}
+
+a:hover{
+    color: #c52c2c;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.frowtwo {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+}
+
+.socialmedia{
+    font-size: 1.3rem;
+
+}
+
+.facebook{
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+.facebook i {
+    margin-right: 6px;
+}
+
+.instagram{
+    color: #eb36a5 ;
+    text-decoration: none;
+}
+
+.instagram i {
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 850px) {
+    .footer{
+        padding: 4rem 2rem;
+    }
+
+    .firstcol, .secondcol, .thirdcol div{
+        width: 50%;
+    }
+}
