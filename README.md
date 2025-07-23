@@ -32,6 +32,21 @@ To get started with Nephro AI, follow these steps:
 
 Potential projects for Nephro AI in the future include the analysis of symptoms.
 
+## Screenshots
+<img width="1896" height="893" alt="1" src="https://github.com/user-attachments/assets/4aa6d4ee-1bc2-46a4-9c3e-e89b52c0b906" />
+<img width="1897" height="889" alt="2" src="https://github.com/user-attachments/assets/0c9827dd-e689-4755-bb42-3e3a1d7de318" />
+<img width="1899" height="889" alt="3" src="https://github.com/user-attachments/assets/da9002b5-fcfb-4d73-9a6f-37847f6dea93" />
+<img width="1899" height="729" alt="4" src="https://github.com/user-attachments/assets/e606a179-9487-4d72-812e-c944db3f2faf" />
+<img width="1895" height="888" alt="5" src="https://github.com/user-attachments/assets/48c6cef0-c1ba-4089-ae1b-87d6302bd131" />
+<img width="1895" height="893" alt="6" src="https://github.com/user-attachments/assets/3888e31a-5ddb-4064-b98b-463fe9f127a5" />
+<img width="1897" height="889" alt="7" src="https://github.com/user-attachments/assets/23ade12e-8ab4-41c3-bfd1-99ff943db00e" />
+<img width="1898" height="631" alt="8" src="https://github.com/user-attachments/assets/387681d1-4a54-44b2-8cb6-51d3b45d4bb9" />
+<img width="1895" height="891" alt="9" src="https://github.com/user-attachments/assets/c3db4541-cc30-40f9-a450-81ca8c447754" />
+<img width="1896" height="828" alt="10" src="https://github.com/user-attachments/assets/f627dcdc-8fc7-42a6-8422-4c21e07c988b" />
+<img width="1895" height="890" alt="11" src="https://github.com/user-attachments/assets/fadd4a8d-31f5-4263-ae29-7bcbd0e073bb" />
+<img width="1894" height="739" alt="12" src="https://github.com/user-attachments/assets/208aba2a-7f0e-492d-8e74-d208bcb06d21" />
+<img width="1896" height="882" alt="13" src="https://github.com/user-attachments/assets/98d606e2-3741-4fa8-bb10-d3ba2a8597fd" />
+
 ## Acknowledgements
 
 We would like to thank our team members for their contributions to the project 
